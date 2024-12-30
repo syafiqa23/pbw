@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3f9; /* Warna abu-abu sangat muda */
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff; /* Putih */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(45deg, #ff9eb3, #ff85a1); /* Gradasi pink */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold; /* Menjadikan tulisan tebal pada header */
+}
+
+nav {
+    background-color: #d1d1d1; /* Abu-abu */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Membuat menu navigasi berada di tengah */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Warna teks gelap */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5c7c; /* Pink cerah */
+}
+
+section {
+    padding: 20px;
+    color: black; /* Abu-abu teks */
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ff9eb3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid rgb(105, 103, 103); /* Pink borders */
+    
+}
+
+th {
+    background-color: #ff9eb3; /* Light pink headers */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+tr:hover {
+    background-color: #ffccff; /* Light pink hover effect on rows */
+}
+
+.add-button {
+    background-color: #ff9eb3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.add-button:hover {
+    background-color: #ff5c7c;
+}
+
